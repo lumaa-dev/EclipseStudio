@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --txt-color: #fff;
+    --bg-color: #313131;
+    --bg-color-transparent: rgba(49, 49, 49, 0.35);
+    --brand-color: #afd6f7;
+}
+
+h1, .hero-font {
+    font-family: 'Concert One', cursive;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 7vw;
+}
+
+.sectionized {
+    width: 100vw;
+}
+
+.sectionized > :not(.uncat) {
+    border-bottom: 1px var(--brand-color) solid;
+}
