@@ -5,5 +5,6 @@
 <style>
     div.bigempty {
         height: 50vh;
+        padding: 5px;
     }
 </style>

@@ -10,7 +10,12 @@
     --txt-color: #fff;
     --bg-color: #313131;
     --bg-color-transparent: rgba(49, 49, 49, 0.35);
-    --brand-color: #afd6f7;
+    --brand-color: #aff7b3;
+}
+
+body {
+    color: var(--txt-color);
+    background: var(--bg-color);
 }
 
 h1, .hero-font {
@@ -24,11 +29,16 @@ h1, .hero-font {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url(https://cdn.discordapp.com/attachments/1054843366065573899/1075910863707443200/image_Ansel.jpg);
 }
 
 .hero h1 {
     color: white;
     font-size: 7vw;
+}
+
+.hero h1.readable {
+    text-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black; 
 }
 
 .sectionized {
@@ -37,4 +47,14 @@ h1, .hero-font {
 
 .sectionized > :not(.uncat) {
     border-bottom: 1px var(--brand-color) solid;
+}
+
+.ax {
+    display: flex;
+    justify-content: center;
+}
+
+.ay {
+    display: flex;
+    align-items: center;
 }

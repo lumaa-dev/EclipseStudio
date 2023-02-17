@@ -5,7 +5,7 @@ import Empty from './components/Empty.vue';
 
 <template>
   <div class="hero">
-    <h1>Eclipse</h1>
+    <h1 class="readable">Eclipse</h1>
   </div>
 
   <div class="sectionized">
