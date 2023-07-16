@@ -1,6 +1,6 @@
 # Eclipse
 
-This template should help get you started developing with Vue 3 in Vite.
+Abandonned because I quit the team before actually finishing this project.
 
 ## Recommended IDE Setup
 
